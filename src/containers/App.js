@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import NavigationBar from '../components/NavigationBar/NavigationBar';
 import FiveYearFuture from '../components/FiveYearFuture/FiveYearFuture';
 import ThemeOfTheYear from '../components/ThemeOfTheYear/ThemeOfTheYear';
+import Scroll from '../components/Scroll/Scroll';
 import HappinessFactor from '../components/HappinessFactor/HappinessFactor';
 import './App.css';
 
@@ -10,9 +11,11 @@ class App extends Component {
         return (
             <div className="App">
                 <NavigationBar/>
-                <FiveYearFuture/>
-                <ThemeOfTheYear/>
-                <HappinessFactor/>
+                <Scroll>
+                    <FiveYearFuture/>
+                    <ThemeOfTheYear/>
+                    <HappinessFactor/>
+                </Scroll>
             </div>
         );
     }

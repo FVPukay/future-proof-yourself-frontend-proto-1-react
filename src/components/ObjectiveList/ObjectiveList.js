@@ -6,7 +6,7 @@ import Form from 'react-bootstrap/Form';
 const ObjectiveList = () => {
     return (
         <Row xs={1} sm={2} md={3} lg={4} xl={5} xxl={6} className='g-4'>
-            {Array.from({ length: 5 }).map((_, idx) => (
+            {Array.from({ length: 24 }).map((_, idx) => (
                 <Col>
                     <Card>
                     <Card.Header>Objective</Card.Header>
