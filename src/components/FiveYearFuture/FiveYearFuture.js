@@ -1,4 +1,5 @@
 import Accordion from 'react-bootstrap/Accordion';
+import FiveYearHappinessGroup from '../FiveYearHappinesGroup/FiveYearHappinessGroup';
 
 const FiveYearFuture = () => {
     return (
@@ -6,7 +7,9 @@ const FiveYearFuture = () => {
             <Accordion.Item eventKey='0'>
                 <Accordion.Header>5YR Future</Accordion.Header>
                 <Accordion.Body>
-                    My 5YR Future
+                    <div>
+                        <FiveYearHappinessGroup/>
+                    </div>
                 </Accordion.Body>
             </Accordion.Item>
         </Accordion>
