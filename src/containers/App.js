@@ -15,6 +15,13 @@ class App extends Component {
                     <FiveYearFuture/>
                     <ThemeOfTheYear/>
                     <HappinessFactor/>
+                    <HappinessFactor/>
+                    <HappinessFactor/>
+                    <HappinessFactor/>
+                    <HappinessFactor/>
+                    <HappinessFactor/>
+                    <HappinessFactor/>
+                    <HappinessFactor/>
                 </Scroll>
             </div>
         );

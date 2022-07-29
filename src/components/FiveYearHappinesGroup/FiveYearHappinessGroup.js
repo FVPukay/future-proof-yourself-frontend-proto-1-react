@@ -11,10 +11,13 @@ const FiveYearHappinessGroup = () => {
                 <Col sm={4}>
                     <ListGroup>
                         <ListGroup.Item action href='#link1'>
-                            Happiness 1
+                            <img alt='heart' src="https://img.icons8.com/external-those-icons-lineal-color-those-icons/24/000000/external-heart-casino-leisure-those-icons-lineal-color-those-icons.png"/>&nbsp;&nbsp;Happiness 1
                         </ListGroup.Item>
                         <ListGroup.Item action href='#link2'>
-                            Happiness 2
+                            <img alt='heart' src="https://img.icons8.com/external-those-icons-lineal-color-those-icons/24/000000/external-heart-casino-leisure-those-icons-lineal-color-those-icons.png"/>&nbsp;&nbsp;Happiness 2
+                        </ListGroup.Item>
+                        <ListGroup.Item action href='#link3'>
+                            <img alt='heart' src="https://img.icons8.com/external-those-icons-lineal-color-those-icons/24/000000/external-heart-casino-leisure-those-icons-lineal-color-those-icons.png"/>&nbsp;&nbsp;Happiness 3
                         </ListGroup.Item>
                     </ListGroup>
                 </Col>
@@ -34,6 +37,19 @@ const FiveYearHappinessGroup = () => {
                             </ol>
                         </Tab.Pane>
                         <Tab.Pane eventKey='#link2'>
+                            <ol style={{float: 'left'}}>
+                                <li>
+                                    Objective 1
+                                </li>
+                                <li>
+                                    Objective 2
+                                </li>
+                                <li>
+                                    Objective 3
+                                </li>
+                            </ol>
+                        </Tab.Pane>
+                        <Tab.Pane eventKey='#link3'>
                             <ol style={{float: 'left'}}>
                                 <li>
                                     Objective 1

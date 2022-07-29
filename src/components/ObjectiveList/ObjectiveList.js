@@ -5,14 +5,14 @@ import Form from 'react-bootstrap/Form';
 
 const ObjectiveList = () => {
     return (
-        <Row xs={1} sm={2} md={3} lg={4} xl={5} xxl={6} className='g-4'>
-            {Array.from({ length: 24 }).map((_, idx) => (
+        <Row xs={1} sm={2} md={2} lg={3} xl={3} xxl={3} className='g-4'>
+            {Array.from({ length: 6 }).map((_, idx) => (
                 <Col>
                     <Card>
                     <Card.Header>Objective</Card.Header>
                         <Card.Body>
                             <Card.Text>
-                                Complete Web Developer Course
+                                Complete Web Developer Course lorem ipsum lorem lorem lorem lorem ipsum lorem lorem lorem
                             </Card.Text>
                             <Form>
                                 {['checkbox'].map(type => (
