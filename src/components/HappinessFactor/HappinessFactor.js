@@ -1,5 +1,6 @@
 import Accordion from 'react-bootstrap/Accordion';
 import HappinessFactorObjAdd from '../HappinessFactorObjAdd/HappinessFactorObjAdd';
+import ObjectiveList from '../ObjectiveList/ObjectiveList';
 
 const HappinessFactor = () => {
     return (
@@ -11,6 +12,7 @@ const HappinessFactor = () => {
                 </Accordion.Header>
                 <Accordion.Body>
                     <HappinessFactorObjAdd/>
+                    <ObjectiveList/>
                 </Accordion.Body>
             </Accordion.Item>
         </Accordion>
