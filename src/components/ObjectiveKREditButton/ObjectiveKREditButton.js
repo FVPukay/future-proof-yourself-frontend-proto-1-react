@@ -2,12 +2,12 @@ import Button from 'react-bootstrap/Button';
 import React from 'react';
 import ObjectiveKRDeleteModal from '../ObjectiveKRDeleteModal/ObjectiveKRDeleteModal';
 
-const ObjectiveKRDeleteButton = () => {
+const ObjectiveKREditButton = () => {
     const [modalShow, setModalShow] = React.useState(false);
     return (
         <>
-            <Button style={{float: 'right', height: '45px', width: '45px'}} className='Button' variant='danger' onClick={() => setModalShow(true)}>
-                <img alt='delete' src="https://img.icons8.com/external-anggara-flat-anggara-putra/32/000000/external-delete-user-interface-anggara-flat-anggara-putra-4.png"/>
+            <Button style={{float: 'right', height: '45px', width: '45px'}} className='Button' variant='success' onClick={() => setModalShow(true)}>
+                <img alt='edit' src="https://img.icons8.com/material-sharp/48/000000/edit--v1.png"/>
             </Button>
 
             <ObjectiveKRDeleteModal
@@ -18,4 +18,4 @@ const ObjectiveKRDeleteButton = () => {
     );
 };
 
-export default ObjectiveKRDeleteButton;
+export default ObjectiveKREditButton;
